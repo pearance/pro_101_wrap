@@ -14,7 +14,7 @@ function pro_101_wrap_menu_default_menu_links() {
   $menu_links['shortcut-set-1:admin/config/content/facebook-comments'] = array(
     'menu_name' => 'shortcut-set-1',
     'link_path' => 'admin/config/content/facebook-comments',
-    'router_path' => 'admin/config/content',
+    'router_path' => 'admin/config/content/facebook-comments',
     'link_title' => 'Facebook',
     'options' => array(),
     'module' => 'menu',
@@ -28,7 +28,7 @@ function pro_101_wrap_menu_default_menu_links() {
   $menu_links['shortcut-set-1:admin/config/content/mollom/settings'] = array(
     'menu_name' => 'shortcut-set-1',
     'link_path' => 'admin/config/content/mollom/settings',
-    'router_path' => 'admin/config/content',
+    'router_path' => 'admin/config/content/mollom/settings',
     'link_title' => 'Mollom',
     'options' => array(),
     'module' => 'menu',
