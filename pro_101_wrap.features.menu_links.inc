@@ -52,6 +52,20 @@ function pro_101_wrap_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-50',
   );
+  // Exported menu link: shortcut-set-1:admin/config/services/alchemy
+  $menu_links['shortcut-set-1:admin/config/services/alchemy'] = array(
+    'menu_name' => 'shortcut-set-1',
+    'link_path' => 'admin/config/services/alchemy',
+    'router_path' => 'admin/config/services/alchemy',
+    'link_title' => 'Alchemy',
+    'options' => array(),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-45',
+  );
   // Exported menu link: shortcut-set-1:admin/content
   $menu_links['shortcut-set-1:admin/content'] = array(
     'menu_name' => 'shortcut-set-1',
@@ -83,6 +97,7 @@ function pro_101_wrap_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Add content');
+  t('Alchemy');
   t('Facebook');
   t('Find content');
   t('Mode');
