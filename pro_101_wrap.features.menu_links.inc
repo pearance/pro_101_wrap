@@ -22,7 +22,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-46',
+    'weight' => '-48',
   );
   // Exported menu link: shortcut-set-1:admin/config/content/mollom/settings
   $menu_links['shortcut-set-1:admin/config/content/mollom/settings'] = array(
@@ -36,7 +36,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-47',
+    'weight' => '-49',
   );
   // Exported menu link: shortcut-set-1:admin/config/development/tadaa/status/environments
   $menu_links['shortcut-set-1:admin/config/development/tadaa/status/environments'] = array(
@@ -52,12 +52,68 @@ function pro_101_wrap_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-50',
   );
+  // Exported menu link: shortcut-set-1:admin/config/search/metatags
+  $menu_links['shortcut-set-1:admin/config/search/metatags'] = array(
+    'menu_name' => 'shortcut-set-1',
+    'link_path' => 'admin/config/search/metatags',
+    'router_path' => 'admin/config/search/metatags',
+    'link_title' => 'Meta tags',
+    'options' => array(),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-43',
+  );
+  // Exported menu link: shortcut-set-1:admin/config/search/wordstream
+  $menu_links['shortcut-set-1:admin/config/search/wordstream'] = array(
+    'menu_name' => 'shortcut-set-1',
+    'link_path' => 'admin/config/search/wordstream',
+    'router_path' => 'admin/config/search/wordstream',
+    'link_title' => 'WordStream',
+    'options' => array(),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-46',
+  );
   // Exported menu link: shortcut-set-1:admin/config/services/alchemy
   $menu_links['shortcut-set-1:admin/config/services/alchemy'] = array(
     'menu_name' => 'shortcut-set-1',
     'link_path' => 'admin/config/services/alchemy',
     'router_path' => 'admin/config/services/alchemy',
     'link_title' => 'Alchemy',
+    'options' => array(),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-47',
+  );
+  // Exported menu link: shortcut-set-1:admin/config/system/google-analytics-reports
+  $menu_links['shortcut-set-1:admin/config/system/google-analytics-reports'] = array(
+    'menu_name' => 'shortcut-set-1',
+    'link_path' => 'admin/config/system/google-analytics-reports',
+    'router_path' => 'admin/config/system/google-analytics-reports',
+    'link_title' => 'Analytics Reports',
+    'options' => array(),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-44',
+  );
+  // Exported menu link: shortcut-set-1:admin/config/system/googleanalytics
+  $menu_links['shortcut-set-1:admin/config/system/googleanalytics'] = array(
+    'menu_name' => 'shortcut-set-1',
+    'link_path' => 'admin/config/system/googleanalytics',
+    'router_path' => 'admin/config/system/googleanalytics',
+    'link_title' => 'Analytics',
     'options' => array(),
     'module' => 'menu',
     'hidden' => '0',
@@ -78,7 +134,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-48',
+    'weight' => '-41',
   );
   // Exported menu link: shortcut-set-1:node/add
   $menu_links['shortcut-set-1:node/add'] = array(
@@ -92,16 +148,20 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-49',
+    'weight' => '-42',
   );
   // Translatables
   // Included for use with string extractors like potx.
   t('Add content');
   t('Alchemy');
+  t('Analytics');
+  t('Analytics Reports');
   t('Facebook');
   t('Find content');
+  t('Meta tags');
   t('Mode');
   t('Mollom');
+  t('WordStream');
 
 
   return $menu_links;
