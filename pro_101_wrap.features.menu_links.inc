@@ -64,6 +64,20 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
+    'weight' => '-42',
+  );
+  // Exported menu link: shortcut-set-1:admin/config/search/verifications/add
+  $menu_links['shortcut-set-1:admin/config/search/verifications/add'] = array(
+    'menu_name' => 'shortcut-set-1',
+    'link_path' => 'admin/config/search/verifications/add',
+    'router_path' => 'admin/config/search/verifications/add',
+    'link_title' => 'Bing',
+    'options' => array(),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
     'weight' => '-43',
   );
   // Exported menu link: shortcut-set-1:admin/config/search/wordstream
@@ -134,7 +148,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-41',
+    'weight' => '-40',
   );
   // Exported menu link: shortcut-set-1:node/add
   $menu_links['shortcut-set-1:node/add'] = array(
@@ -148,7 +162,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-42',
+    'weight' => '-41',
   );
   // Translatables
   // Included for use with string extractors like potx.
@@ -156,6 +170,7 @@ function pro_101_wrap_menu_default_menu_links() {
   t('Alchemy');
   t('Analytics');
   t('Analytics Reports');
+  t('Bing');
   t('Facebook');
   t('Find content');
   t('Meta tags');
