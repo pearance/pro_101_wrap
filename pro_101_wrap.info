@@ -18,6 +18,7 @@ features[features_api][] = api:1
 features[menu_links][] = shortcut-set-1:admin/config/content/facebook-comments
 features[menu_links][] = shortcut-set-1:admin/config/content/mollom/settings
 features[menu_links][] = shortcut-set-1:admin/config/development/tadaa/status/environments
+features[menu_links][] = shortcut-set-1:admin/config/media/socialmedia/profiles
 features[menu_links][] = shortcut-set-1:admin/config/search/metatags
 features[menu_links][] = shortcut-set-1:admin/config/search/verifications/add
 features[menu_links][] = shortcut-set-1:admin/config/search/wordstream
