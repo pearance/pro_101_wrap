@@ -111,5 +111,27 @@ function pro_101_wrap_strongarm() {
   );
   $export['kwresearch_stats_report_links_options'] = $strongarm;
 
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'locale_custom_disabled_strings_en';
+  $strongarm->value = array();
+  $export['locale_custom_disabled_strings_en'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'locale_custom_strings_en';
+  $strongarm->value = array(
+    '' => array(
+      '"Just Another Social Module" Settings' => 'Social media',
+      'Disable developer modules' => 'Disable themer info',
+      'Enable developer modules' => 'Enable themer info',
+      'FAQ' => 'Answer',
+      'Select an environment' => 'Select a site mode',
+    ),
+  );
+  $export['locale_custom_strings_en'] = $strongarm;
+
   return $export;
 }

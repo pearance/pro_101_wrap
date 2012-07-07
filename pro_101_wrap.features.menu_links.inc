@@ -52,20 +52,6 @@ function pro_101_wrap_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-50',
   );
-  // Exported menu link: shortcut-set-1:admin/config/media/socialmedia/profiles
-  $menu_links['shortcut-set-1:admin/config/media/socialmedia/profiles'] = array(
-    'menu_name' => 'shortcut-set-1',
-    'link_path' => 'admin/config/media/socialmedia/profiles',
-    'router_path' => 'admin/config/media/socialmedia/profiles',
-    'link_title' => 'Profiles',
-    'options' => array(),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-39',
-  );
   // Exported menu link: shortcut-set-1:admin/config/search/metatags
   $menu_links['shortcut-set-1:admin/config/search/metatags'] = array(
     'menu_name' => 'shortcut-set-1',
@@ -121,6 +107,20 @@ function pro_101_wrap_menu_default_menu_links() {
     'has_children' => '0',
     'expanded' => '0',
     'weight' => '-47',
+  );
+  // Exported menu link: shortcut-set-1:admin/config/services/jasm
+  $menu_links['shortcut-set-1:admin/config/services/jasm'] = array(
+    'menu_name' => 'shortcut-set-1',
+    'link_path' => 'admin/config/services/jasm',
+    'router_path' => 'admin/config/services/jasm',
+    'link_title' => 'Social media',
+    'options' => array(),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-39',
   );
   // Exported menu link: shortcut-set-1:admin/config/system/google-analytics-reports
   $menu_links['shortcut-set-1:admin/config/system/google-analytics-reports'] = array(
@@ -190,7 +190,7 @@ function pro_101_wrap_menu_default_menu_links() {
   t('Meta tags');
   t('Mode');
   t('Mollom');
-  t('Profiles');
+  t('Social media');
   t('WordStream');
 
 
