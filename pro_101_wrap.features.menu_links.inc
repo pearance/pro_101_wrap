@@ -22,7 +22,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-48',
+    'weight' => '-47',
   );
   // Exported menu link: shortcut-set-1:admin/config/content/mollom/settings
   $menu_links['shortcut-set-1:admin/config/content/mollom/settings'] = array(
@@ -30,6 +30,20 @@ function pro_101_wrap_menu_default_menu_links() {
     'link_path' => 'admin/config/content/mollom/settings',
     'router_path' => 'admin/config/content/mollom/settings',
     'link_title' => 'Mollom',
+    'options' => array(),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-48',
+  );
+  // Exported menu link: shortcut-set-1:admin/config/development/pro-101-qa-checklist
+  $menu_links['shortcut-set-1:admin/config/development/pro-101-qa-checklist'] = array(
+    'menu_name' => 'shortcut-set-1',
+    'link_path' => 'admin/config/development/pro-101-qa-checklist',
+    'router_path' => 'admin/config/development/pro-101-qa-checklist',
+    'link_title' => 'Checklist',
     'options' => array(),
     'module' => 'menu',
     'hidden' => '0',
@@ -64,7 +78,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-42',
+    'weight' => '-41',
   );
   // Exported menu link: shortcut-set-1:admin/config/search/verifications/add
   $menu_links['shortcut-set-1:admin/config/search/verifications/add'] = array(
@@ -78,7 +92,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-43',
+    'weight' => '-42',
   );
   // Exported menu link: shortcut-set-1:admin/config/search/wordstream
   $menu_links['shortcut-set-1:admin/config/search/wordstream'] = array(
@@ -92,7 +106,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-46',
+    'weight' => '-45',
   );
   // Exported menu link: shortcut-set-1:admin/config/services/alchemy
   $menu_links['shortcut-set-1:admin/config/services/alchemy'] = array(
@@ -106,7 +120,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-47',
+    'weight' => '-46',
   );
   // Exported menu link: shortcut-set-1:admin/config/services/jasm
   $menu_links['shortcut-set-1:admin/config/services/jasm'] = array(
@@ -120,7 +134,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-39',
+    'weight' => '-40',
   );
   // Exported menu link: shortcut-set-1:admin/config/system/google-analytics-reports
   $menu_links['shortcut-set-1:admin/config/system/google-analytics-reports'] = array(
@@ -134,7 +148,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-44',
+    'weight' => '-43',
   );
   // Exported menu link: shortcut-set-1:admin/config/system/googleanalytics
   $menu_links['shortcut-set-1:admin/config/system/googleanalytics'] = array(
@@ -148,7 +162,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-45',
+    'weight' => '-44',
   );
   // Exported menu link: shortcut-set-1:admin/content
   $menu_links['shortcut-set-1:admin/content'] = array(
@@ -162,7 +176,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-40',
+    'weight' => '-38',
   );
   // Exported menu link: shortcut-set-1:node/add
   $menu_links['shortcut-set-1:node/add'] = array(
@@ -176,7 +190,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-41',
+    'weight' => '-39',
   );
   // Translatables
   // Included for use with string extractors like potx.
@@ -185,6 +199,7 @@ function pro_101_wrap_menu_default_menu_links() {
   t('Analytics');
   t('Analytics Reports');
   t('Bing');
+  t('Checklist');
   t('Facebook');
   t('Find content');
   t('Meta tags');
