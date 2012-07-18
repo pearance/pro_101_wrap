@@ -128,7 +128,10 @@ function pro_101_wrap_strongarm() {
       'Disable developer modules' => 'Disable themer info',
       'Enable developer modules' => 'Enable themer info',
       'FAQ' => 'Answer',
+      'Moderation state' => 'Editorial State',
+      'New content' => 'Editorial state',
       'Select an environment' => 'Select a site mode',
+      'Your draft will be placed in moderation.' => 'Draft',
     ),
   );
   $export['locale_custom_strings_en'] = $strongarm;
