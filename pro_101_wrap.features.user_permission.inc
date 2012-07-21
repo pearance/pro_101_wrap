@@ -10,6 +10,15 @@
 function pro_101_wrap_user_default_permissions() {
   $permissions = array();
 
+  // Exported permission: Administer Insight.
+  $permissions['Administer Insight'] = array(
+    'name' => 'Administer Insight',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
   // Exported permission: access wordstream reports.
   $permissions['access wordstream reports'] = array(
     'name' => 'access wordstream reports',
@@ -42,6 +51,7 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'administer content node settings',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'config_perms',
   );
@@ -60,6 +70,7 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'administer date-time',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'config_perms',
   );
@@ -105,6 +116,7 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'administer site information',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'config_perms',
   );
@@ -114,6 +126,7 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'administer site maintenance',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'config_perms',
   );
@@ -141,6 +154,7 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'display site building menu',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'config_perms',
   );
@@ -150,6 +164,7 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'display site configuration menu',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'config_perms',
   );
