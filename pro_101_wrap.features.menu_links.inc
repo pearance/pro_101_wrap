@@ -98,7 +98,7 @@ function pro_101_wrap_menu_default_menu_links() {
   $menu_links['shortcut-set-1:admin/config/search/wordstream'] = array(
     'menu_name' => 'shortcut-set-1',
     'link_path' => 'admin/config/search/wordstream',
-    'router_path' => 'admin/config/search',
+    'router_path' => 'admin/config/search/wordstream',
     'link_title' => 'WordStream',
     'options' => array(),
     'module' => 'menu',

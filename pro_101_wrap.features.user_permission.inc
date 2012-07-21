@@ -10,75 +10,6 @@
 function pro_101_wrap_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: Administer Insight.
-  $permissions['Administer Insight'] = array(
-    'name' => 'Administer Insight',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'config_perms',
-  );
-
-  // Exported permission: Administer content node settings.
-  $permissions['Administer content node settings'] = array(
-    'name' => 'Administer content node settings',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'config_perms',
-  );
-
-  // Exported permission: Administer date-time.
-  $permissions['Administer date-time'] = array(
-    'name' => 'Administer date-time',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'config_perms',
-  );
-
-  // Exported permission: Administer site information.
-  $permissions['Administer site information'] = array(
-    'name' => 'Administer site information',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'config_perms',
-  );
-
-  // Exported permission: Administer site maintenance.
-  $permissions['Administer site maintenance'] = array(
-    'name' => 'Administer site maintenance',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'config_perms',
-  );
-
-  // Exported permission: Display configuration menu.
-  $permissions['Display configuration menu'] = array(
-    'name' => 'Display configuration menu',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'config_perms',
-  );
-
-  // Exported permission: Display structure menu.
-  $permissions['Display structure menu'] = array(
-    'name' => 'Display structure menu',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'config_perms',
-  );
-
   // Exported permission: access wordstream reports.
   $permissions['access wordstream reports'] = array(
     'name' => 'access wordstream reports',
@@ -97,9 +28,63 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'wordstream',
   );
 
+  // Exported permission: administer clean-urls.
+  $permissions['administer clean-urls'] = array(
+    'name' => 'administer clean-urls',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: administer content node settings.
+  $permissions['administer content node settings'] = array(
+    'name' => 'administer content node settings',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
   // Exported permission: administer custom permissions.
   $permissions['administer custom permissions'] = array(
     'name' => 'administer custom permissions',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: administer date-time.
+  $permissions['administer date-time'] = array(
+    'name' => 'administer date-time',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: administer error reporting.
+  $permissions['administer error reporting'] = array(
+    'name' => 'administer error reporting',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: administer file system.
+  $permissions['administer file system'] = array(
+    'name' => 'administer file system',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: administer performance.
+  $permissions['administer performance'] = array(
+    'name' => 'administer performance',
     'roles' => array(
       0 => 'developer',
     ),
@@ -115,6 +100,33 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'shortcut',
   );
 
+  // Exported permission: administer site information.
+  $permissions['administer site information'] = array(
+    'name' => 'administer site information',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: administer site maintenance.
+  $permissions['administer site maintenance'] = array(
+    'name' => 'administer site maintenance',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: administer user profile fields.
+  $permissions['administer user profile fields'] = array(
+    'name' => 'administer user profile fields',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
   // Exported permission: customize shortcut links.
   $permissions['customize shortcut links'] = array(
     'name' => 'customize shortcut links',
@@ -122,6 +134,24 @@ function pro_101_wrap_user_default_permissions() {
       0 => 'developer',
     ),
     'module' => 'shortcut',
+  );
+
+  // Exported permission: display site building menu.
+  $permissions['display site building menu'] = array(
+    'name' => 'display site building menu',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: display site configuration menu.
+  $permissions['display site configuration menu'] = array(
+    'name' => 'display site configuration menu',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
   );
 
   // Exported permission: kwresearch admin page keywords.
