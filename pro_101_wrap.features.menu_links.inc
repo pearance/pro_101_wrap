@@ -78,7 +78,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-42',
+    'weight' => '-41',
   );
   // Exported menu link: shortcut-set-1:admin/config/search/verifications/add
   $menu_links['shortcut-set-1:admin/config/search/verifications/add'] = array(
@@ -92,7 +92,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-43',
+    'weight' => '-42',
   );
   // Exported menu link: shortcut-set-1:admin/config/search/wordstream
   $menu_links['shortcut-set-1:admin/config/search/wordstream'] = array(
@@ -102,11 +102,11 @@ function pro_101_wrap_menu_default_menu_links() {
     'link_title' => 'WordStream',
     'options' => array(),
     'module' => 'menu',
-    'hidden' => '1',
+    'hidden' => '0',
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-40',
+    'weight' => '-45',
   );
   // Exported menu link: shortcut-set-1:admin/config/services/alchemy
   $menu_links['shortcut-set-1:admin/config/services/alchemy'] = array(
@@ -134,7 +134,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-41',
+    'weight' => '-40',
   );
   // Exported menu link: shortcut-set-1:admin/config/system/google-analytics-reports
   $menu_links['shortcut-set-1:admin/config/system/google-analytics-reports'] = array(
@@ -148,7 +148,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-44',
+    'weight' => '-43',
   );
   // Exported menu link: shortcut-set-1:admin/config/system/googleanalytics
   $menu_links['shortcut-set-1:admin/config/system/googleanalytics'] = array(
@@ -162,7 +162,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-45',
+    'weight' => '-44',
   );
   // Exported menu link: shortcut-set-1:admin/content
   $menu_links['shortcut-set-1:admin/content'] = array(
