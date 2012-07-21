@@ -10,6 +10,75 @@
 function pro_101_wrap_user_default_permissions() {
   $permissions = array();
 
+  // Exported permission: Administer Insight.
+  $permissions['Administer Insight'] = array(
+    'name' => 'Administer Insight',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Administer content node settings.
+  $permissions['Administer content node settings'] = array(
+    'name' => 'Administer content node settings',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Administer date-time.
+  $permissions['Administer date-time'] = array(
+    'name' => 'Administer date-time',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Administer site information.
+  $permissions['Administer site information'] = array(
+    'name' => 'Administer site information',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Administer site maintenance.
+  $permissions['Administer site maintenance'] = array(
+    'name' => 'Administer site maintenance',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Display configuration menu.
+  $permissions['Display configuration menu'] = array(
+    'name' => 'Display configuration menu',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Display structure menu.
+  $permissions['Display structure menu'] = array(
+    'name' => 'Display structure menu',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'config_perms',
+  );
+
   // Exported permission: access wordstream reports.
   $permissions['access wordstream reports'] = array(
     'name' => 'access wordstream reports',
@@ -26,6 +95,15 @@ function pro_101_wrap_user_default_permissions() {
       0 => 'developer',
     ),
     'module' => 'wordstream',
+  );
+
+  // Exported permission: administer custom permissions.
+  $permissions['administer custom permissions'] = array(
+    'name' => 'administer custom permissions',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
   );
 
   // Exported permission: administer shortcuts.
