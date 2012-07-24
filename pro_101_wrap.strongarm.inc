@@ -115,11 +115,7 @@ function pro_101_wrap_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'locale_custom_disabled_strings_en';
-  $strongarm->value = array(
-    '' => array(
-      'Moderate' => 'Update Revision State',
-    ),
-  );
+  $strongarm->value = array();
   $export['locale_custom_disabled_strings_en'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -133,16 +129,18 @@ function pro_101_wrap_strongarm() {
       'Disable developer modules' => 'Disable themer info',
       'Enable developer modules' => 'Enable themer info',
       'FAQ' => 'Answer',
-      'Moderation state' => 'Revision State',
-      'Moderation State' => 'Current Revision State',
+      'Moderate' => 'Editorial Action',
+      'Moderation State' => 'Current Editorial State',
+      'Moderation state' => 'Change Editorial State',
       'My content' => 'My Content',
       'My Drafts' => 'My Drafts',
       'My Workbench' => 'My Content',
-      'Needs Review' => 'My Drafts Ready for Optimization',
-      'New content' => 'Status',
-      'Select an environment' => 'Select a site mode',
-      'Your draft will be placed in moderation.' => 'Draft of unpublished content.',
+      'Needs Review' => 'Submissions for Optimization',
+      'New content' => 'Current Editorial State',
       'New draft of live content.' => 'New draft of published content.',
+      'Revision state' => 'Current Editorial State',
+      'Select an environment' => 'Select a site mode',
+      'Your draft will be placed in moderation.' => 'Draft',
     ),
   );
   $export['locale_custom_strings_en'] = $strongarm;
