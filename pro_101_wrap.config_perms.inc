@@ -127,6 +127,17 @@ function pro_101_wrap_config_perms() {
   $config_perms = new stdClass();
   $config_perms->disabled = FALSE; /* Edit this to true to make a default config_perms disabled initially */
   $config_perms->api_version = 1;
+  $config_perms->machine_name = 'display_admin_index';
+  $config_perms->status = TRUE;
+  $config_perms->name = 'display admin index';
+  $config_perms->path = array(
+    0 => 'admin/index',
+  );
+  $export['display_admin_index'] = $config_perms;
+
+  $config_perms = new stdClass();
+  $config_perms->disabled = FALSE; /* Edit this to true to make a default config_perms disabled initially */
+  $config_perms->api_version = 1;
   $config_perms->machine_name = 'display_site_building_menu';
   $config_perms->status = TRUE;
   $config_perms->name = 'display site building menu';
