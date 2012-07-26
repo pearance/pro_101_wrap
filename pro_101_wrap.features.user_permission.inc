@@ -140,15 +140,6 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'shortcut',
   );
 
-  // Exported permission: display admin index.
-  $permissions['display admin index'] = array(
-    'name' => 'display admin index',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'config_perms',
-  );
-
   // Exported permission: display site building menu.
   $permissions['display site building menu'] = array(
     'name' => 'display site building menu',
