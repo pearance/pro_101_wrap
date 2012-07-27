@@ -130,8 +130,8 @@ function pro_101_wrap_strongarm() {
       'Enable developer modules' => 'Enable themer info',
       'FAQ' => 'Answer',
       'Moderate' => 'Editorial Action',
-      'Moderation State' => 'Current Editorial State',
       'Moderation state' => 'Change Editorial State',
+      'Moderation State' => 'Current Editorial State',
       'My content' => 'My Content',
       'My Drafts' => 'My Drafts',
       'My Workbench' => 'My Content',
@@ -141,6 +141,7 @@ function pro_101_wrap_strongarm() {
       'Revision state' => 'Current Editorial State',
       'Select an environment' => 'Select a site mode',
       'Your draft will be placed in moderation.' => 'Draft',
+      'Registration successful. You are now logged in.' => 'Registration successful.',
     ),
   );
   $export['locale_custom_strings_en'] = $strongarm;
