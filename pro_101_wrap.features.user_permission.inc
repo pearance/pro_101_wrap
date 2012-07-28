@@ -59,7 +59,9 @@ function pro_101_wrap_user_default_permissions() {
   // Exported permission: Administer modules.
   $permissions['Administer modules'] = array(
     'name' => 'Administer modules',
-    'roles' => array(),
+    'roles' => array(
+      0 => 'developer',
+    ),
     'module' => 'config_perms',
   );
 
