@@ -10,6 +10,15 @@
 function pro_101_wrap_user_default_permissions() {
   $permissions = array();
 
+  // Exported permission: Administer Insight.
+  $permissions['Administer Insight'] = array(
+    'name' => 'Administer Insight',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
   // Exported permission: Administer clean-urls.
   $permissions['Administer clean-urls'] = array(
     'name' => 'Administer clean-urls',
@@ -96,6 +105,15 @@ function pro_101_wrap_user_default_permissions() {
   // Exported permission: Administer user profile fields.
   $permissions['Administer user profile fields'] = array(
     'name' => 'Administer user profile fields',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Display admin index.
+  $permissions['Display admin index'] = array(
+    'name' => 'Display admin index',
     'roles' => array(
       0 => 'developer',
     ),
