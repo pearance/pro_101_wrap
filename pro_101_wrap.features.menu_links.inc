@@ -71,7 +71,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'menu_name' => 'shortcut-set-1',
     'link_path' => 'admin/config/search/metatags',
     'router_path' => 'admin/config/search/metatags',
-    'link_title' => 'Meta tags',
+    'link_title' => 'Meta Tags',
     'options' => array(),
     'module' => 'menu',
     'hidden' => '0',
@@ -122,12 +122,12 @@ function pro_101_wrap_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-46',
   );
-  // Exported menu link: shortcut-set-1:admin/config/services/jasm
-  $menu_links['shortcut-set-1:admin/config/services/jasm'] = array(
+  // Exported menu link: shortcut-set-1:admin/config/services/social_media
+  $menu_links['shortcut-set-1:admin/config/services/social_media'] = array(
     'menu_name' => 'shortcut-set-1',
-    'link_path' => 'admin/config/services/jasm',
-    'router_path' => 'admin/config/services/jasm',
-    'link_title' => 'Social media',
+    'link_path' => 'admin/config/services/social_media',
+    'router_path' => 'admin/config/services/social_media',
+    'link_title' => 'Social Media',
     'options' => array(),
     'module' => 'menu',
     'hidden' => '0',
@@ -202,10 +202,10 @@ function pro_101_wrap_menu_default_menu_links() {
   t('Checklist');
   t('Facebook');
   t('Find content');
-  t('Meta tags');
+  t('Meta Tags');
   t('Mode');
   t('Mollom');
-  t('Social media');
+  t('Social Media');
   t('WordStream');
 
 
