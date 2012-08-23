@@ -105,10 +105,10 @@ function pro_101_wrap_workbench_content_alter(&$output) {
  * Implements hook_form_FORM_ID_alter()
  */
 // Hide administrative overlay.
-function pro_101_wrap_form_user_profile_form_alter(&$form,  &$form_state, $form_id){
-  global $user;
-  $roles = $user->roles;
-  if ($roles[2] == 'authenticated user') {
-    hide($form['overlay_control']);
-  }
-}
+// function pro_101_wrap_form_user_profile_form_alter(&$form,  &$form_state, $form_id){
+//   global $user;
+//   $roles = $user->roles;
+//   if ($roles[2] == 'authenticated user') {
+//     hide($form['overlay_control']);
+//   }
+// }
