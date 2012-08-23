@@ -1,0 +1,19 @@
+<?php
+
+
+function pro_101_custom_install() {
+  // Create aliases.
+  $faq_path = array(
+    'source' => "faq-page",
+    'alias' => 'answers',
+  );
+  $path_original = $faq_path;
+  path_save($faq_path);
+
+  $testimonial_add_path = array(
+    'source' => "node/add/testimonial",
+    'alias' => 'add/testimonial',
+  );
+  $path_original = $testimonial_add_path;
+  path_save($testimonial_add_path);
+}
