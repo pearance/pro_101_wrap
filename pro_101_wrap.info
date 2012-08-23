@@ -11,7 +11,6 @@ dependencies[] = insight
 dependencies[] = kwresearch
 dependencies[] = kwresearch_google
 dependencies[] = menu
-dependencies[] = pro_101_custom
 dependencies[] = shortcut
 dependencies[] = strongarm
 dependencies[] = wordstream
