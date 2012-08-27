@@ -16,4 +16,11 @@ function pro_101_wrap_install() {
   );
   $path_original = $testimonial_add_path;
   path_save($testimonial_add_path);
+
+  $checklist_add_path = array(
+    'source' => "admin/config/development/pro-101-qa-checklist",
+    'alias' => 'admin/pro-101-checklist',
+  );
+  $path_original = $checklist_add_path;
+  path_save($checklist_add_path);
 }

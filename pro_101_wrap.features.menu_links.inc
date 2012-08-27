@@ -50,7 +50,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-49',
+    'weight' => '-50',
   );
   // Exported menu link: shortcut-set-1:admin/config/development/tadaa/status/environments
   $menu_links['shortcut-set-1:admin/config/development/tadaa/status/environments'] = array(
@@ -64,7 +64,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-50',
+    'weight' => '-49',
   );
   // Exported menu link: shortcut-set-1:admin/config/search/metatags
   $menu_links['shortcut-set-1:admin/config/search/metatags'] = array(
