@@ -1,7 +1,7 @@
 <?php
 
 
-function pro_101_custom_install() {
+function pro_101_wrap_install() {
   // Create aliases.
   $faq_path = array(
     'source' => "faq-page",
