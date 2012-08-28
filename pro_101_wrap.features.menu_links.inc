@@ -42,7 +42,7 @@ function pro_101_wrap_menu_default_menu_links() {
   $menu_links['shortcut-set-1:admin/config/development/pro-101-qa-checklist'] = array(
     'menu_name' => 'shortcut-set-1',
     'link_path' => 'admin/config/development/pro-101-qa-checklist',
-    'router_path' => 'admin/config/development/pro-101-qa-checklist',
+    'router_path' => 'admin/config/development',
     'link_title' => 'Checklist',
     'options' => array(),
     'module' => 'menu',
