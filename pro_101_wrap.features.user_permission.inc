@@ -194,7 +194,10 @@ function pro_101_wrap_user_default_permissions() {
   // Exported permission: edit pro_101_qa_checklist checklistapi checklist.
   $permissions['edit pro_101_qa_checklist checklistapi checklist'] = array(
     'name' => 'edit pro_101_qa_checklist checklistapi checklist',
-    'roles' => array(),
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
     'module' => 'checklistapi',
   );
 
@@ -246,7 +249,10 @@ function pro_101_wrap_user_default_permissions() {
   // Exported permission: view pro_101_qa_checklist checklistapi checklist.
   $permissions['view pro_101_qa_checklist checklistapi checklist'] = array(
     'name' => 'view pro_101_qa_checklist checklistapi checklist',
-    'roles' => array(),
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
     'module' => 'checklistapi',
   );
 
