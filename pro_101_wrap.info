@@ -39,6 +39,7 @@ features[user_permission][] = Administer content node settings
 features[user_permission][] = Administer date-time
 features[user_permission][] = Administer error reporting
 features[user_permission][] = Administer file system
+features[user_permission][] = Administer file-types
 features[user_permission][] = Administer modules
 features[user_permission][] = Administer performance
 features[user_permission][] = Administer site information

@@ -65,6 +65,15 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
+  // Exported permission: Administer file-types.
+  $permissions['Administer file-types'] = array(
+    'name' => 'Administer file-types',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
   // Exported permission: Administer modules.
   $permissions['Administer modules'] = array(
     'name' => 'Administer modules',
