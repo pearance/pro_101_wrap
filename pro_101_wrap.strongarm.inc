@@ -130,6 +130,7 @@ function pro_101_wrap_strongarm() {
       'Enable developer modules' => 'Enable themer info',
       'FAQ' => 'Answer',
       'Moderate' => 'Editorial Actions',
+      'Moderation notes' => 'Revision log message',
       'Moderation state' => 'Change Editorial State',
       'Moderation State' => 'Current Editorial State',
       'My content' => 'My Drafts',
@@ -141,7 +142,7 @@ function pro_101_wrap_strongarm() {
       'Revision state' => 'Current Editorial State',
       'Select an environment' => 'Select a site mode',
       'Your draft will be placed in moderation.' => 'Draft',
-      'Moderation notes' => 'Revision log message',
+      'Verifications' => 'Bing',
     ),
   );
   $export['locale_custom_strings_en'] = $strongarm;

@@ -66,20 +66,6 @@ function pro_101_wrap_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-49',
   );
-  // Exported menu link: shortcut-set-1:admin/config/search/metatags
-  $menu_links['shortcut-set-1:admin/config/search/metatags'] = array(
-    'menu_name' => 'shortcut-set-1',
-    'link_path' => 'admin/config/search/metatags',
-    'router_path' => 'admin/config/search/metatags',
-    'link_title' => 'Meta Tags',
-    'options' => array(),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-41',
-  );
   // Exported menu link: shortcut-set-1:admin/config/search/verifications/add
   $menu_links['shortcut-set-1:admin/config/search/verifications/add'] = array(
     'menu_name' => 'shortcut-set-1',
@@ -176,7 +162,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-38',
+    'weight' => '-36',
   );
   // Exported menu link: shortcut-set-1:node/add
   $menu_links['shortcut-set-1:node/add'] = array(
@@ -190,7 +176,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-39',
+    'weight' => '-37',
   );
   // Translatables
   // Included for use with string extractors like potx.
@@ -202,7 +188,6 @@ function pro_101_wrap_menu_default_menu_links() {
   t('Checklist');
   t('Facebook');
   t('Find content');
-  t('Meta Tags');
   t('Mode');
   t('Mollom');
   t('Social Media');

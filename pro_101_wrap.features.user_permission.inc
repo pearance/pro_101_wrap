@@ -10,36 +10,72 @@
 function pro_101_wrap_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: Administer Insight.
-  $permissions['Administer Insight'] = array(
-    'name' => 'Administer Insight',
+  // Exported permission: Actions Configuration.
+  $permissions['Actions Configuration'] = array(
+    'name' => 'Actions Configuration',
     'roles' => array(
       0 => 'developer',
     ),
     'module' => 'config_perms',
   );
 
-  // Exported permission: Administer clean-urls.
-  $permissions['Administer clean-urls'] = array(
-    'name' => 'Administer clean-urls',
+  // Exported permission: Admin Index.
+  $permissions['Admin Index'] = array(
+    'name' => 'Admin Index',
     'roles' => array(
       0 => 'developer',
     ),
     'module' => 'config_perms',
   );
 
-  // Exported permission: Administer content node settings.
-  $permissions['Administer content node settings'] = array(
-    'name' => 'Administer content node settings',
+  // Exported permission: Administration Configuration Menu.
+  $permissions['Administration Configuration Menu'] = array(
+    'name' => 'Administration Configuration Menu',
     'roles' => array(
       0 => 'developer',
     ),
     'module' => 'config_perms',
   );
 
-  // Exported permission: Administer date-time.
-  $permissions['Administer date-time'] = array(
-    'name' => 'Administer date-time',
+  // Exported permission: Boost Configuration.
+  $permissions['Boost Configuration'] = array(
+    'name' => 'Boost Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: CS Adaptive Image Configuration.
+  $permissions['CS Adaptive Image Configuration'] = array(
+    'name' => 'CS Adaptive Image Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Clean URLs Configuration.
+  $permissions['Clean URLs Configuration'] = array(
+    'name' => 'Clean URLs Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Colorbox Configuration.
+  $permissions['Colorbox Configuration'] = array(
+    'name' => 'Colorbox Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Configuration Menu.
+  $permissions['Configuration Menu'] = array(
+    'name' => 'Configuration Menu',
     'roles' => array(
       0 => 'developer',
       1 => 'support',
@@ -47,52 +83,198 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
-  // Exported permission: Administer error reporting.
-  $permissions['Administer error reporting'] = array(
-    'name' => 'Administer error reporting',
+  // Exported permission: Content-lock Configuration.
+  $permissions['Content-lock Configuration'] = array(
+    'name' => 'Content-lock Configuration',
     'roles' => array(
       0 => 'developer',
     ),
     'module' => 'config_perms',
   );
 
-  // Exported permission: Administer file system.
-  $permissions['Administer file system'] = array(
-    'name' => 'Administer file system',
+  // Exported permission: Cron Configuration.
+  $permissions['Cron Configuration'] = array(
+    'name' => 'Cron Configuration',
     'roles' => array(
       0 => 'developer',
     ),
     'module' => 'config_perms',
   );
 
-  // Exported permission: Administer file-types.
-  $permissions['Administer file-types'] = array(
-    'name' => 'Administer file-types',
+  // Exported permission: Custom Error Configuration.
+  $permissions['Custom Error Configuration'] = array(
+    'name' => 'Custom Error Configuration',
     'roles' => array(
       0 => 'developer',
     ),
     'module' => 'config_perms',
   );
 
-  // Exported permission: Administer modules.
-  $permissions['Administer modules'] = array(
-    'name' => 'Administer modules',
-    'roles' => array(),
-    'module' => 'config_perms',
-  );
-
-  // Exported permission: Administer performance.
-  $permissions['Administer performance'] = array(
-    'name' => 'Administer performance',
+  // Exported permission: Devel Configuration.
+  $permissions['Devel Configuration'] = array(
+    'name' => 'Devel Configuration',
     'roles' => array(
       0 => 'developer',
     ),
     'module' => 'config_perms',
   );
 
-  // Exported permission: Administer site information.
-  $permissions['Administer site information'] = array(
-    'name' => 'Administer site information',
+  // Exported permission: Disable Messages Configuration.
+  $permissions['Disable Messages Configuration'] = array(
+    'name' => 'Disable Messages Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: File-system Configuration.
+  $permissions['File-system Configuration'] = array(
+    'name' => 'File-system Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: File-types.
+  $permissions['File-types'] = array(
+    'name' => 'File-types',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Global Redirect Configuration.
+  $permissions['Global Redirect Configuration'] = array(
+    'name' => 'Global Redirect Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Image Toolkit Configuration.
+  $permissions['Image Toolkit Configuration'] = array(
+    'name' => 'Image Toolkit Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Insight.
+  $permissions['Insight'] = array(
+    'name' => 'Insight',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Jail Configuration.
+  $permissions['Jail Configuration'] = array(
+    'name' => 'Jail Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Logging Configuration.
+  $permissions['Logging Configuration'] = array(
+    'name' => 'Logging Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Maintenance Configuration.
+  $permissions['Maintenance Configuration'] = array(
+    'name' => 'Maintenance Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Media Browser Configuration.
+  $permissions['Media Browser Configuration'] = array(
+    'name' => 'Media Browser Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Mollom Configuration.
+  $permissions['Mollom Configuration'] = array(
+    'name' => 'Mollom Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: People Configuration Menu.
+  $permissions['People Configuration Menu'] = array(
+    'name' => 'People Configuration Menu',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Performance Configuration.
+  $permissions['Performance Configuration'] = array(
+    'name' => 'Performance Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: RSS Configuration.
+  $permissions['RSS Configuration'] = array(
+    'name' => 'RSS Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Regional Configuration Menu.
+  $permissions['Regional Configuration Menu'] = array(
+    'name' => 'Regional Configuration Menu',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Site Information Configuration.
+  $permissions['Site Information Configuration'] = array(
+    'name' => 'Site Information Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Strongarm Configuration.
+  $permissions['Strongarm Configuration'] = array(
+    'name' => 'Strongarm Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Structure Menu.
+  $permissions['Structure Menu'] = array(
+    'name' => 'Structure Menu',
     'roles' => array(
       0 => 'developer',
       1 => 'support',
@@ -100,49 +282,29 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
-  // Exported permission: Administer site maintenance.
-  $permissions['Administer site maintenance'] = array(
-    'name' => 'Administer site maintenance',
+  // Exported permission: Tadaa Configuration.
+  $permissions['Tadaa Configuration'] = array(
+    'name' => 'Tadaa Configuration',
     'roles' => array(
       0 => 'developer',
     ),
     'module' => 'config_perms',
   );
 
-  // Exported permission: Administer user profile fields.
-  $permissions['Administer user profile fields'] = array(
-    'name' => 'Administer user profile fields',
+  // Exported permission: User Interface Configuration Menu.
+  $permissions['User Interface Configuration Menu'] = array(
+    'name' => 'User Interface Configuration Menu',
     'roles' => array(
       0 => 'developer',
     ),
     'module' => 'config_perms',
   );
 
-  // Exported permission: Display admin index.
-  $permissions['Display admin index'] = array(
-    'name' => 'Display admin index',
+  // Exported permission: Webform Configuration.
+  $permissions['Webform Configuration'] = array(
+    'name' => 'Webform Configuration',
     'roles' => array(
       0 => 'developer',
-    ),
-    'module' => 'config_perms',
-  );
-
-  // Exported permission: Display site building menu.
-  $permissions['Display site building menu'] = array(
-    'name' => 'Display site building menu',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'config_perms',
-  );
-
-  // Exported permission: Display site configuration menu.
-  $permissions['Display site configuration menu'] = array(
-    'name' => 'Display site configuration menu',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'config_perms',
   );
@@ -152,6 +314,7 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'access wordstream reports',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'wordstream',
   );
@@ -161,6 +324,7 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'admin wordstream',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'wordstream',
   );
@@ -216,6 +380,7 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'kwresearch admin page keywords',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'kwresearch',
   );
@@ -225,6 +390,7 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'kwresearch admin site keywords',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'kwresearch',
   );
@@ -252,6 +418,7 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'view checklistapi checklists report',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'checklistapi',
   );
