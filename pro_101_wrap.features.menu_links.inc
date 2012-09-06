@@ -120,7 +120,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-40',
+    'weight' => '-41',
   );
   // Exported menu link: shortcut-set-1:admin/config/system/google-analytics-reports
   $menu_links['shortcut-set-1:admin/config/system/google-analytics-reports'] = array(
@@ -150,6 +150,20 @@ function pro_101_wrap_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-44',
   );
+  // Exported menu link: shortcut-set-1:admin/config/system/nagios
+  $menu_links['shortcut-set-1:admin/config/system/nagios'] = array(
+    'menu_name' => 'shortcut-set-1',
+    'link_path' => 'admin/config/system/nagios',
+    'router_path' => 'admin/config/system/nagios',
+    'link_title' => 'Nagios',
+    'options' => array(),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-38',
+  );
   // Exported menu link: shortcut-set-1:admin/content
   $menu_links['shortcut-set-1:admin/content'] = array(
     'menu_name' => 'shortcut-set-1',
@@ -162,7 +176,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-36',
+    'weight' => '-39',
   );
   // Exported menu link: shortcut-set-1:node/add
   $menu_links['shortcut-set-1:node/add'] = array(
@@ -176,7 +190,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-37',
+    'weight' => '-40',
   );
   // Translatables
   // Included for use with string extractors like potx.
@@ -190,6 +204,7 @@ function pro_101_wrap_menu_default_menu_links() {
   t('Find content');
   t('Mode');
   t('Mollom');
+  t('Nagios');
   t('Social Media');
   t('WordStream');
 
