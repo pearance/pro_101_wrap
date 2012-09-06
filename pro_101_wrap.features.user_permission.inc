@@ -37,6 +37,15 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
+  // Exported permission: Block Structure.
+  $permissions['Block Structure'] = array(
+    'name' => 'Block Structure',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
   // Exported permission: Boost Configuration.
   $permissions['Boost Configuration'] = array(
     'name' => 'Boost Configuration',

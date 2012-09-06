@@ -36,6 +36,7 @@ features[shortcut_set][] = shortcut-set-1
 features[user_permission][] = Actions Configuration
 features[user_permission][] = Admin Index
 features[user_permission][] = Administration Configuration Menu
+features[user_permission][] = Block Structure
 features[user_permission][] = Boost Configuration
 features[user_permission][] = CS Adaptive Image Configuration
 features[user_permission][] = Clean URLs Configuration
