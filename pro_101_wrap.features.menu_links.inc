@@ -42,7 +42,7 @@ function pro_101_wrap_menu_default_menu_links() {
   $menu_links['shortcut-set-1:admin/config/development/pro-101-qa-checklist'] = array(
     'menu_name' => 'shortcut-set-1',
     'link_path' => 'admin/config/development/pro-101-qa-checklist',
-    'router_path' => 'admin/config/development',
+    'router_path' => 'admin/config/development/pro-101-qa-checklist',
     'link_title' => 'Checklist',
     'options' => array(),
     'module' => 'menu',
@@ -162,7 +162,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-38',
+    'weight' => '-40',
   );
   // Exported menu link: shortcut-set-1:admin/content
   $menu_links['shortcut-set-1:admin/content'] = array(
@@ -176,7 +176,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-39',
+    'weight' => '-38',
   );
   // Exported menu link: shortcut-set-1:node/add
   $menu_links['shortcut-set-1:node/add'] = array(
@@ -190,7 +190,7 @@ function pro_101_wrap_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-40',
+    'weight' => '-39',
   );
   // Translatables
   // Included for use with string extractors like potx.
