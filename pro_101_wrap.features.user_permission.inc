@@ -37,15 +37,6 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
-  // Exported permission: Block Structure.
-  $permissions['Block Structure'] = array(
-    'name' => 'Block Structure',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'config_perms',
-  );
-
   // Exported permission: Boost Configuration.
   $permissions['Boost Configuration'] = array(
     'name' => 'Boost Configuration',
@@ -185,6 +176,15 @@ function pro_101_wrap_user_default_permissions() {
   // Exported permission: Jail Configuration.
   $permissions['Jail Configuration'] = array(
     'name' => 'Jail Configuration',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Live CSS Configuration.
+  $permissions['Live CSS Configuration'] = array(
+    'name' => 'Live CSS Configuration',
     'roles' => array(
       0 => 'developer',
     ),
