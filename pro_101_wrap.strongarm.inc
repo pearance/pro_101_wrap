@@ -114,13 +114,6 @@ function pro_101_wrap_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'locale_custom_disabled_strings_en';
-  $strongarm->value = array();
-  $export['locale_custom_disabled_strings_en'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'locale_custom_strings_en';
   $strongarm->value = array(
     '' => array(
@@ -131,8 +124,8 @@ function pro_101_wrap_strongarm() {
       'FAQ' => 'Answer',
       'Moderate' => 'Editorial Actions',
       'Moderation notes' => 'Revision log message',
-      'Moderation state' => 'Change Editorial State',
       'Moderation State' => 'Current Editorial State',
+      'Moderation state' => 'Change Editorial State',
       'My content' => 'My Drafts',
       'My Workbench' => 'My Drafts',
       'Needs Review' => 'Drafts Pending Optimization',
@@ -141,9 +134,9 @@ function pro_101_wrap_strongarm() {
       'Registration successful. You are now logged in.' => 'Registration is successful. Please submit your testimonial by filling out the form below.',
       'Revision state' => 'Current Editorial State',
       'Select an environment' => 'Select a site mode',
+      'Status' => 'Note',
       'Verifications' => 'Bing',
       'Your draft will be placed in moderation.' => 'When revision of this content is complete, change the editorial state to \'Ready for Optimization\'.',
-      'Status' => 'Note',
     ),
   );
   $export['locale_custom_strings_en'] = $strongarm;

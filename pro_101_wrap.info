@@ -90,5 +90,4 @@ features[variable][] = kwresearch_site_report_data_options
 features[variable][] = kwresearch_stats_report_data_options
 features[variable][] = kwresearch_stats_report_item_limit
 features[variable][] = kwresearch_stats_report_links_options
-features[variable][] = locale_custom_disabled_strings_en
 features[variable][] = locale_custom_strings_en
