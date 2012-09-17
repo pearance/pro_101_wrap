@@ -92,6 +92,13 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
+  // Exported permission: Context Configuration.
+  $permissions['Context Configuration'] = array(
+    'name' => 'Context Configuration',
+    'roles' => array(),
+    'module' => 'config_perms',
+  );
+
   // Exported permission: Cron Configuration.
   $permissions['Cron Configuration'] = array(
     'name' => 'Cron Configuration',
@@ -309,6 +316,13 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
+  // Exported permission: Webform Components.
+  $permissions['Webform Components'] = array(
+    'name' => 'Webform Components',
+    'roles' => array(),
+    'module' => 'config_perms',
+  );
+
   // Exported permission: Webform Configuration.
   $permissions['Webform Configuration'] = array(
     'name' => 'Webform Configuration',
@@ -411,6 +425,18 @@ function pro_101_wrap_user_default_permissions() {
       0 => 'developer',
     ),
     'module' => 'shortcut',
+  );
+
+  // Exported permission: use ccl.
+  $permissions['use ccl'] = array(
+    'name' => 'use ccl',
+    'roles' => array(
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
+      3 => 'support',
+    ),
+    'module' => 'ccl',
   );
 
   // Exported permission: view any checklistapi checklist.
