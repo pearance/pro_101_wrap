@@ -370,6 +370,16 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'shortcut',
   );
 
+  // Exported permission: create field_title_graphic.
+  $permissions['create field_title_graphic'] = array(
+    'name' => 'create field_title_graphic',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: customize shortcut links.
   $permissions['customize shortcut links'] = array(
     'name' => 'customize shortcut links',
@@ -386,6 +396,26 @@ function pro_101_wrap_user_default_permissions() {
       0 => 'developer',
     ),
     'module' => 'checklistapi',
+  );
+
+  // Exported permission: edit field_title_graphic.
+  $permissions['edit field_title_graphic'] = array(
+    'name' => 'edit field_title_graphic',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit own field_title_graphic.
+  $permissions['edit own field_title_graphic'] = array(
+    'name' => 'edit own field_title_graphic',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
   );
 
   // Exported permission: edit pro_101_qa_checklist checklistapi checklist.
@@ -456,6 +486,26 @@ function pro_101_wrap_user_default_permissions() {
       1 => 'support',
     ),
     'module' => 'checklistapi',
+  );
+
+  // Exported permission: view field_title_graphic.
+  $permissions['view field_title_graphic'] = array(
+    'name' => 'view field_title_graphic',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view own field_title_graphic.
+  $permissions['view own field_title_graphic'] = array(
+    'name' => 'view own field_title_graphic',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
   );
 
   // Exported permission: view pro_101_qa_checklist checklistapi checklist.
