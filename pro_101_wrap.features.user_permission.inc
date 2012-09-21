@@ -370,6 +370,76 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'shortcut',
   );
 
+  // Exported permission: create field_bio_summary.
+  $permissions['create field_bio_summary'] = array(
+    'name' => 'create field_bio_summary',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'developer',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: create field_blog_tags.
+  $permissions['create field_blog_tags'] = array(
+    'name' => 'create field_blog_tags',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: create field_first_name.
+  $permissions['create field_first_name'] = array(
+    'name' => 'create field_first_name',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'developer',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: create field_hide_profile.
+  $permissions['create field_hide_profile'] = array(
+    'name' => 'create field_hide_profile',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'developer',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: create field_last_name.
+  $permissions['create field_last_name'] = array(
+    'name' => 'create field_last_name',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'developer',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: create field_pro_bio.
+  $permissions['create field_pro_bio'] = array(
+    'name' => 'create field_pro_bio',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'developer',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: create field_title.
+  $permissions['create field_title'] = array(
+    'name' => 'create field_title',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'developer',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: create field_title_graphic.
   $permissions['create field_title_graphic'] = array(
     'name' => 'create field_title_graphic',
@@ -398,12 +468,160 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'checklistapi',
   );
 
+  // Exported permission: edit field_bio_summary.
+  $permissions['edit field_bio_summary'] = array(
+    'name' => 'edit field_bio_summary',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit field_blog_tags.
+  $permissions['edit field_blog_tags'] = array(
+    'name' => 'edit field_blog_tags',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit field_first_name.
+  $permissions['edit field_first_name'] = array(
+    'name' => 'edit field_first_name',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit field_hide_profile.
+  $permissions['edit field_hide_profile'] = array(
+    'name' => 'edit field_hide_profile',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit field_last_name.
+  $permissions['edit field_last_name'] = array(
+    'name' => 'edit field_last_name',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit field_pro_bio.
+  $permissions['edit field_pro_bio'] = array(
+    'name' => 'edit field_pro_bio',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit field_title.
+  $permissions['edit field_title'] = array(
+    'name' => 'edit field_title',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: edit field_title_graphic.
   $permissions['edit field_title_graphic'] = array(
     'name' => 'edit field_title_graphic',
     'roles' => array(
       0 => 'developer',
       1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit own field_bio_summary.
+  $permissions['edit own field_bio_summary'] = array(
+    'name' => 'edit own field_bio_summary',
+    'roles' => array(
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
+      3 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit own field_blog_tags.
+  $permissions['edit own field_blog_tags'] = array(
+    'name' => 'edit own field_blog_tags',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit own field_first_name.
+  $permissions['edit own field_first_name'] = array(
+    'name' => 'edit own field_first_name',
+    'roles' => array(
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
+      3 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit own field_hide_profile.
+  $permissions['edit own field_hide_profile'] = array(
+    'name' => 'edit own field_hide_profile',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit own field_last_name.
+  $permissions['edit own field_last_name'] = array(
+    'name' => 'edit own field_last_name',
+    'roles' => array(
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
+      3 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit own field_pro_bio.
+  $permissions['edit own field_pro_bio'] = array(
+    'name' => 'edit own field_pro_bio',
+    'roles' => array(
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: edit own field_title.
+  $permissions['edit own field_title'] = array(
+    'name' => 'edit own field_title',
+    'roles' => array(
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
     ),
     'module' => 'field_permissions',
   );
@@ -1137,12 +1355,174 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'checklistapi',
   );
 
+  // Exported permission: view field_bio_summary.
+  $permissions['view field_bio_summary'] = array(
+    'name' => 'view field_bio_summary',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'assistant',
+      2 => 'authenticated user',
+      3 => 'developer',
+      4 => 'professional',
+      5 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view field_blog_tags.
+  $permissions['view field_blog_tags'] = array(
+    'name' => 'view field_blog_tags',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'assistant',
+      2 => 'authenticated user',
+      3 => 'developer',
+      4 => 'professional',
+      5 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view field_first_name.
+  $permissions['view field_first_name'] = array(
+    'name' => 'view field_first_name',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'authenticated user',
+      2 => 'developer',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view field_hide_profile.
+  $permissions['view field_hide_profile'] = array(
+    'name' => 'view field_hide_profile',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view field_last_name.
+  $permissions['view field_last_name'] = array(
+    'name' => 'view field_last_name',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'authenticated user',
+      2 => 'developer',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view field_pro_bio.
+  $permissions['view field_pro_bio'] = array(
+    'name' => 'view field_pro_bio',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'authenticated user',
+      2 => 'developer',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view field_title.
+  $permissions['view field_title'] = array(
+    'name' => 'view field_title',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'authenticated user',
+      2 => 'developer',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: view field_title_graphic.
   $permissions['view field_title_graphic'] = array(
     'name' => 'view field_title_graphic',
     'roles' => array(
       0 => 'developer',
       1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view own field_bio_summary.
+  $permissions['view own field_bio_summary'] = array(
+    'name' => 'view own field_bio_summary',
+    'roles' => array(
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
+      3 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view own field_blog_tags.
+  $permissions['view own field_blog_tags'] = array(
+    'name' => 'view own field_blog_tags',
+    'roles' => array(
+      0 => 'authenticated user',
+      1 => 'developer',
+      2 => 'professional',
+      3 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view own field_first_name.
+  $permissions['view own field_first_name'] = array(
+    'name' => 'view own field_first_name',
+    'roles' => array(
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
+      3 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view own field_hide_profile.
+  $permissions['view own field_hide_profile'] = array(
+    'name' => 'view own field_hide_profile',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view own field_last_name.
+  $permissions['view own field_last_name'] = array(
+    'name' => 'view own field_last_name',
+    'roles' => array(
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
+      3 => 'support',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view own field_pro_bio.
+  $permissions['view own field_pro_bio'] = array(
+    'name' => 'view own field_pro_bio',
+    'roles' => array(
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: view own field_title.
+  $permissions['view own field_title'] = array(
+    'name' => 'view own field_title',
+    'roles' => array(
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
     ),
     'module' => 'field_permissions',
   );
