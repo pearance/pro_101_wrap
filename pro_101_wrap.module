@@ -7,11 +7,15 @@
 include_once 'pro_101_wrap.features.inc';
 
 /**
-*
-*/
+ * Implements hook_form_alter().
+ * Remove meta tag form from answer, block, & feature node types
+ *
+ */
 function pro_101_wrap_form_alter(&$form, &$form_state, $form_id) {
-  if ($form_id == 'user-login') {
-    $form['pass']['#attributes']['autocomplete'] = 'off';
+  switch($form_id) {
+    case 'user-login':
+      $form['pass']['#attributes']['autocomplete'] = 'off';
+    break;
   }
 }
 
