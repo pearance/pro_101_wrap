@@ -83,6 +83,15 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
+  // Exported permission: Content Lock Global Page.
+  $permissions['Content Lock Global Page'] = array(
+    'name' => 'Content Lock Global Page',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
   // Exported permission: Content-lock Configuration.
   $permissions['Content-lock Configuration'] = array(
     'name' => 'Content-lock Configuration',
@@ -95,7 +104,9 @@ function pro_101_wrap_user_default_permissions() {
   // Exported permission: Context Configuration.
   $permissions['Context Configuration'] = array(
     'name' => 'Context Configuration',
-    'roles' => array(),
+    'roles' => array(
+      0 => 'developer',
+    ),
     'module' => 'config_perms',
   );
 
@@ -114,6 +125,13 @@ function pro_101_wrap_user_default_permissions() {
     'roles' => array(
       0 => 'developer',
     ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Database Log.
+  $permissions['Database Log'] = array(
+    'name' => 'Database Log',
+    'roles' => array(),
     'module' => 'config_perms',
   );
 
@@ -307,6 +325,20 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
+  // Exported permission: Top Access Denied.
+  $permissions['Top Access Denied'] = array(
+    'name' => 'Top Access Denied',
+    'roles' => array(),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Top Page not Found.
+  $permissions['Top Page not Found'] = array(
+    'name' => 'Top Page not Found',
+    'roles' => array(),
+    'module' => 'config_perms',
+  );
+
   // Exported permission: User Interface Configuration Menu.
   $permissions['User Interface Configuration Menu'] = array(
     'name' => 'User Interface Configuration Menu',
@@ -319,7 +351,9 @@ function pro_101_wrap_user_default_permissions() {
   // Exported permission: Webform Components.
   $permissions['Webform Components'] = array(
     'name' => 'Webform Components',
-    'roles' => array(),
+    'roles' => array(
+      0 => 'developer',
+    ),
     'module' => 'config_perms',
   );
 
