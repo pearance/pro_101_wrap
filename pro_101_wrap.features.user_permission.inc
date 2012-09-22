@@ -466,6 +466,15 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'block_access',
   );
 
+  // Exported permission: configure all blocks. .
+  $permissions['configure all blocks. '] = array(
+    'name' => 'configure all blocks. ',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
   // Exported permission: configure all content type visibility settings.
   $permissions['configure all content type visibility settings'] = array(
     'name' => 'configure all content type visibility settings',
