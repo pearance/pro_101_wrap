@@ -131,7 +131,9 @@ function pro_101_wrap_user_default_permissions() {
   // Exported permission: Database Log.
   $permissions['Database Log'] = array(
     'name' => 'Database Log',
-    'roles' => array(),
+    'roles' => array(
+      0 => 'developer',
+    ),
     'module' => 'config_perms',
   );
 
@@ -328,14 +330,18 @@ function pro_101_wrap_user_default_permissions() {
   // Exported permission: Top Access Denied.
   $permissions['Top Access Denied'] = array(
     'name' => 'Top Access Denied',
-    'roles' => array(),
+    'roles' => array(
+      0 => 'developer',
+    ),
     'module' => 'config_perms',
   );
 
   // Exported permission: Top Page not Found.
   $permissions['Top Page not Found'] = array(
     'name' => 'Top Page not Found',
-    'roles' => array(),
+    'roles' => array(
+      0 => 'developer',
+    ),
     'module' => 'config_perms',
   );
 
@@ -366,6 +372,25 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
+  // Exported permission: Webform Email Settings.
+  $permissions['Webform Email Settings'] = array(
+    'name' => 'Webform Email Settings',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: access the block administration page.
+  $permissions['access the block administration page'] = array(
+    'name' => 'access the block administration page',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
   // Exported permission: access wordstream reports.
   $permissions['access wordstream reports'] = array(
     'name' => 'access wordstream reports',
@@ -386,6 +411,15 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'wordstream',
   );
 
+  // Exported permission: administer block access settings.
+  $permissions['administer block access settings'] = array(
+    'name' => 'administer block access settings',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
   // Exported permission: administer custom permissions.
   $permissions['administer custom permissions'] = array(
     'name' => 'administer custom permissions',
@@ -402,6 +436,115 @@ function pro_101_wrap_user_default_permissions() {
       0 => 'developer',
     ),
     'module' => 'shortcut',
+  );
+
+  // Exported permission: configure all block body fields.
+  $permissions['configure all block body fields'] = array(
+    'name' => 'configure all block body fields',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
+  // Exported permission: configure all block descriptions.
+  $permissions['configure all block descriptions'] = array(
+    'name' => 'configure all block descriptions',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
+  // Exported permission: configure all block titles.
+  $permissions['configure all block titles'] = array(
+    'name' => 'configure all block titles',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'block_access',
+  );
+
+  // Exported permission: configure all blocks. .
+  $permissions['configure all blocks. '] = array(
+    'name' => 'configure all blocks. ',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
+  // Exported permission: configure all content type visibility settings.
+  $permissions['configure all content type visibility settings'] = array(
+    'name' => 'configure all content type visibility settings',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
+  // Exported permission: configure all language settings.
+  $permissions['configure all language settings'] = array(
+    'name' => 'configure all language settings',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
+  // Exported permission: configure all page visibility settings.
+  $permissions['configure all page visibility settings'] = array(
+    'name' => 'configure all page visibility settings',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
+  // Exported permission: configure all region settings.
+  $permissions['configure all region settings'] = array(
+    'name' => 'configure all region settings',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
+  // Exported permission: configure all role visibility settings.
+  $permissions['configure all role visibility settings'] = array(
+    'name' => 'configure all role visibility settings',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
+  // Exported permission: configure all user visibility settings.
+  $permissions['configure all user visibility settings'] = array(
+    'name' => 'configure all user visibility settings',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
+  // Exported permission: configure all visibility settings.
+  $permissions['configure all visibility settings'] = array(
+    'name' => 'configure all visibility settings',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
+  // Exported permission: create blocks.
+  $permissions['create blocks'] = array(
+    'name' => 'create blocks',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
   );
 
   // Exported permission: create field_bio_summary.
@@ -491,6 +634,24 @@ function pro_101_wrap_user_default_permissions() {
       0 => 'developer',
     ),
     'module' => 'shortcut',
+  );
+
+  // Exported permission: delete all blocks.
+  $permissions['delete all blocks'] = array(
+    'name' => 'delete all blocks',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
+  );
+
+  // Exported permission: disable all blocks.
+  $permissions['disable all blocks'] = array(
+    'name' => 'disable all blocks',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
   );
 
   // Exported permission: edit any checklistapi checklist.
@@ -678,6 +839,15 @@ function pro_101_wrap_user_default_permissions() {
       1 => 'support',
     ),
     'module' => 'checklistapi',
+  );
+
+  // Exported permission: enable all blocks.
+  $permissions['enable all blocks'] = array(
+    'name' => 'enable all blocks',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'block_access',
   );
 
   // Exported permission: enter block revision log entry.
@@ -899,6 +1069,16 @@ function pro_101_wrap_user_default_permissions() {
       3 => 'support',
     ),
     'module' => 'workbench_moderation',
+  );
+
+  // Exported permission: move all blocks.
+  $permissions['move all blocks'] = array(
+    'name' => 'move all blocks',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'block_access',
   );
 
   // Exported permission: override block authored by option.
@@ -1368,6 +1548,20 @@ function pro_101_wrap_user_default_permissions() {
       3 => 'support',
     ),
     'module' => 'ccl',
+  );
+
+  // Exported permission: view all blocks.
+  $permissions['view all blocks'] = array(
+    'name' => 'view all blocks',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'assistant',
+      2 => 'authenticated user',
+      3 => 'developer',
+      4 => 'professional',
+      5 => 'support',
+    ),
+    'module' => 'block_access',
   );
 
   // Exported permission: view any checklistapi checklist.
