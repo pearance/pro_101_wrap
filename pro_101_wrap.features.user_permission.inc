@@ -83,15 +83,6 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
-  // Exported permission: Content Lock Global Page.
-  $permissions['Content Lock Global Page'] = array(
-    'name' => 'Content Lock Global Page',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'config_perms',
-  );
-
   // Exported permission: Content-lock Configuration.
   $permissions['Content-lock Configuration'] = array(
     'name' => 'Content-lock Configuration',
@@ -459,16 +450,6 @@ function pro_101_wrap_user_default_permissions() {
   // Exported permission: configure all block titles.
   $permissions['configure all block titles'] = array(
     'name' => 'configure all block titles',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'block_access',
-  );
-
-  // Exported permission: configure all blocks. .
-  $permissions['configure all blocks. '] = array(
-    'name' => 'configure all blocks. ',
     'roles' => array(
       0 => 'developer',
       1 => 'support',
