@@ -89,6 +89,7 @@ features[user_permission][] = administer shortcuts
 features[user_permission][] = configure all block body fields
 features[user_permission][] = configure all block descriptions
 features[user_permission][] = configure all block titles
+features[user_permission][] = configure all blocks. 
 features[user_permission][] = configure all content type visibility settings
 features[user_permission][] = configure all language settings
 features[user_permission][] = configure all page visibility settings
