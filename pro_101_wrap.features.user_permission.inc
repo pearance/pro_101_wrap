@@ -236,15 +236,6 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
-  // Exported permission: Mollom Configuration.
-  $permissions['Mollom Configuration'] = array(
-    'name' => 'Mollom Configuration',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'config_perms',
-  );
-
   // Exported permission: People Configuration Menu.
   $permissions['People Configuration Menu'] = array(
     'name' => 'People Configuration Menu',
@@ -457,12 +448,10 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'block_access',
   );
 
-  // Exported permission: configure all blocks. .
-  $permissions['configure all blocks. '] = array(
-    'name' => 'configure all blocks. ',
-    'roles' => array(
-      0 => 'developer',
-    ),
+  // Exported permission: configure all blocks.
+  $permissions['configure all blocks'] = array(
+    'name' => 'configure all blocks',
+    'roles' => array(),
     'module' => 'block_access',
   );
 
