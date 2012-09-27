@@ -863,7 +863,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'enter featured revision log entry',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -1202,7 +1201,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'override featured published option',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -1212,7 +1210,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'override featured revision option',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -1258,7 +1255,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'override page published option',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -1268,7 +1264,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'override page revision option',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -1313,8 +1308,10 @@ function pro_101_wrap_user_default_permissions() {
   $permissions['override specialty published option'] = array(
     'name' => 'override specialty published option',
     'roles' => array(
-      0 => 'developer',
-      1 => 'support',
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
+      3 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -1426,7 +1423,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'override webform published option',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
