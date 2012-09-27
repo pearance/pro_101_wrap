@@ -836,7 +836,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'enter block revision log entry',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -1102,7 +1101,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'override block revision option',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
