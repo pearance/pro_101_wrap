@@ -845,7 +845,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'enter blog revision log entry',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -940,18 +939,6 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'workbench_moderation',
   );
 
-  // Exported permission: moderate content from draft to trash.
-  $permissions['moderate content from draft to trash'] = array(
-    'name' => 'moderate content from draft to trash',
-    'roles' => array(
-      0 => 'assistant',
-      1 => 'developer',
-      2 => 'professional',
-      3 => 'support',
-    ),
-    'module' => 'workbench_moderation',
-  );
-
   // Exported permission: moderate content from needs_review to draft.
   $permissions['moderate content from needs_review to draft'] = array(
     'name' => 'moderate content from needs_review to draft',
@@ -984,38 +971,6 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'workbench_moderation',
   );
 
-  // Exported permission: moderate content from trash to draft.
-  $permissions['moderate content from trash to draft'] = array(
-    'name' => 'moderate content from trash to draft',
-    'roles' => array(
-      0 => 'assistant',
-      1 => 'developer',
-      2 => 'professional',
-      3 => 'support',
-    ),
-    'module' => 'workbench_moderation',
-  );
-
-  // Exported permission: moderate content from trash to needs_review.
-  $permissions['moderate content from trash to needs_review'] = array(
-    'name' => 'moderate content from trash to needs_review',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'workbench_moderation',
-  );
-
-  // Exported permission: moderate content from trash to published.
-  $permissions['moderate content from trash to published'] = array(
-    'name' => 'moderate content from trash to published',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'workbench_moderation',
-  );
-
   // Exported permission: moderate content from unpublished to draft.
   $permissions['moderate content from unpublished to draft'] = array(
     'name' => 'moderate content from unpublished to draft',
@@ -1034,18 +989,6 @@ function pro_101_wrap_user_default_permissions() {
     'roles' => array(
       0 => 'developer',
       1 => 'support',
-    ),
-    'module' => 'workbench_moderation',
-  );
-
-  // Exported permission: moderate content from unpublished to trash.
-  $permissions['moderate content from unpublished to trash'] = array(
-    'name' => 'moderate content from unpublished to trash',
-    'roles' => array(
-      0 => 'assistant',
-      1 => 'developer',
-      2 => 'professional',
-      3 => 'support',
     ),
     'module' => 'workbench_moderation',
   );
@@ -1147,8 +1090,10 @@ function pro_101_wrap_user_default_permissions() {
   $permissions['override blog published option'] = array(
     'name' => 'override blog published option',
     'roles' => array(
-      0 => 'developer',
-      1 => 'support',
+      0 => 'assistant',
+      1 => 'developer',
+      2 => 'professional',
+      3 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -1158,7 +1103,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'override blog revision option',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
