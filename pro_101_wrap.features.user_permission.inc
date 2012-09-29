@@ -598,16 +598,6 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
-  // Exported permission: create field_title_graphic.
-  $permissions['create field_title_graphic'] = array(
-    'name' => 'create field_title_graphic',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'field_permissions',
-  );
-
   // Exported permission: customize shortcut links.
   $permissions['customize shortcut links'] = array(
     'name' => 'customize shortcut links',
@@ -714,16 +704,6 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
-  // Exported permission: edit field_title_graphic.
-  $permissions['edit field_title_graphic'] = array(
-    'name' => 'edit field_title_graphic',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'field_permissions',
-  );
-
   // Exported permission: edit own field_bio_summary.
   $permissions['edit own field_bio_summary'] = array(
     'name' => 'edit own field_bio_summary',
@@ -798,16 +778,7 @@ function pro_101_wrap_user_default_permissions() {
       0 => 'assistant',
       1 => 'developer',
       2 => 'professional',
-    ),
-    'module' => 'field_permissions',
-  );
-
-  // Exported permission: edit own field_title_graphic.
-  $permissions['edit own field_title_graphic'] = array(
-    'name' => 'edit own field_title_graphic',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
+      3 => 'support',
     ),
     'module' => 'field_permissions',
   );
@@ -882,7 +853,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'enter specialty revision log entry',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -892,7 +862,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'enter testimonial revision log entry',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -1308,10 +1277,7 @@ function pro_101_wrap_user_default_permissions() {
   $permissions['override specialty published option'] = array(
     'name' => 'override specialty published option',
     'roles' => array(
-      0 => 'assistant',
-      1 => 'developer',
-      2 => 'professional',
-      3 => 'support',
+      0 => 'developer',
     ),
     'module' => 'override_node_options',
   );
@@ -1321,7 +1287,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'override specialty revision option',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -1367,7 +1332,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'override testimonial published option',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -1377,7 +1341,6 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'override testimonial revision option',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'override_node_options',
   );
@@ -1581,16 +1544,6 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
-  // Exported permission: view field_title_graphic.
-  $permissions['view field_title_graphic'] = array(
-    'name' => 'view field_title_graphic',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'field_permissions',
-  );
-
   // Exported permission: view own field_bio_summary.
   $permissions['view own field_bio_summary'] = array(
     'name' => 'view own field_bio_summary',
@@ -1667,16 +1620,6 @@ function pro_101_wrap_user_default_permissions() {
       0 => 'assistant',
       1 => 'developer',
       2 => 'professional',
-    ),
-    'module' => 'field_permissions',
-  );
-
-  // Exported permission: view own field_title_graphic.
-  $permissions['view own field_title_graphic'] = array(
-    'name' => 'view own field_title_graphic',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'field_permissions',
   );
