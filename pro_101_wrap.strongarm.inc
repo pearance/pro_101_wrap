@@ -138,13 +138,13 @@ function pro_101_wrap_strongarm() {
       'New draft of live content.' => 'New draft of published content.',
       'Registration successful. You are now logged in.' => 'Registration is successful. Please submit your testimonial by filling out the form below.',
       'Revision state' => 'Current Editorial State',
-      'Save as draft' => 'Save Draft',
       'Select an environment' => 'Select a site mode',
       'Set moderation state:' => 'Update Editorial State:',
       'Set the moderation state for this content.' => 'Set the editorial state for this content.',
       'Status' => 'Note',
       'Verifications' => 'Bing',
       'Your draft will be placed in moderation.' => 'When revision of this content is complete, change the editorial state to \'Ready for Optimization\'.',
+      'Save as draft' => 'Save',
     ),
   );
   $export['locale_custom_strings_en'] = $strongarm;
