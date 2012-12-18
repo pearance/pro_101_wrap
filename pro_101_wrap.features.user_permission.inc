@@ -403,16 +403,6 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'shortcut',
   );
 
-  // Exported permission: create field_blog_tags.
-  $permissions['create field_blog_tags'] = array(
-    'name' => 'create field_blog_tags',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'field_permissions',
-  );
-
   // Exported permission: customize shortcut links.
   $permissions['customize shortcut links'] = array(
     'name' => 'customize shortcut links',
@@ -420,26 +410,6 @@ function pro_101_wrap_user_default_permissions() {
       0 => 'developer',
     ),
     'module' => 'shortcut',
-  );
-
-  // Exported permission: edit field_blog_tags.
-  $permissions['edit field_blog_tags'] = array(
-    'name' => 'edit field_blog_tags',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'field_permissions',
-  );
-
-  // Exported permission: edit own field_blog_tags.
-  $permissions['edit own field_blog_tags'] = array(
-    'name' => 'edit own field_blog_tags',
-    'roles' => array(
-      0 => 'developer',
-      1 => 'support',
-    ),
-    'module' => 'field_permissions',
   );
 
   // Exported permission: enter block revision log entry.
@@ -1057,32 +1027,6 @@ function pro_101_wrap_user_default_permissions() {
       3 => 'support',
     ),
     'module' => 'ccl',
-  );
-
-  // Exported permission: view field_blog_tags.
-  $permissions['view field_blog_tags'] = array(
-    'name' => 'view field_blog_tags',
-    'roles' => array(
-      0 => 'anonymous user',
-      1 => 'assistant',
-      2 => 'authenticated user',
-      3 => 'developer',
-      4 => 'professional',
-      5 => 'support',
-    ),
-    'module' => 'field_permissions',
-  );
-
-  // Exported permission: view own field_blog_tags.
-  $permissions['view own field_blog_tags'] = array(
-    'name' => 'view own field_blog_tags',
-    'roles' => array(
-      0 => 'authenticated user',
-      1 => 'developer',
-      2 => 'professional',
-      3 => 'support',
-    ),
-    'module' => 'field_permissions',
   );
 
   return $permissions;
