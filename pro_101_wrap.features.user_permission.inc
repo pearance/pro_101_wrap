@@ -412,6 +412,25 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'shortcut',
   );
 
+  // Exported permission: edit any checklistapi checklist.
+  $permissions['edit any checklistapi checklist'] = array(
+    'name' => 'edit any checklistapi checklist',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'checklistapi',
+  );
+
+  // Exported permission: edit pro_101_qa_checklist checklistapi checklist.
+  $permissions['edit pro_101_qa_checklist checklistapi checklist'] = array(
+    'name' => 'edit pro_101_qa_checklist checklistapi checklist',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'checklistapi',
+  );
+
   // Exported permission: kwresearch admin page keywords.
   $permissions['kwresearch admin page keywords'] = array(
     'name' => 'kwresearch admin page keywords',
@@ -517,6 +536,35 @@ function pro_101_wrap_user_default_permissions() {
       3 => 'support',
     ),
     'module' => 'ccl',
+  );
+
+  // Exported permission: view any checklistapi checklist.
+  $permissions['view any checklistapi checklist'] = array(
+    'name' => 'view any checklistapi checklist',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'checklistapi',
+  );
+
+  // Exported permission: view checklistapi checklists report.
+  $permissions['view checklistapi checklists report'] = array(
+    'name' => 'view checklistapi checklists report',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'checklistapi',
+  );
+
+  // Exported permission: view pro_101_qa_checklist checklistapi checklist.
+  $permissions['view pro_101_qa_checklist checklistapi checklist'] = array(
+    'name' => 'view pro_101_qa_checklist checklistapi checklist',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'checklistapi',
   );
 
   return $permissions;
