@@ -16,7 +16,6 @@ dependencies[] = kwresearch
 dependencies[] = kwresearch_google
 dependencies[] = menu
 dependencies[] = override_node_options
-dependencies[] = pro_101_qa_checklist
 dependencies[] = shortcut
 dependencies[] = strongarm
 dependencies[] = wordstream
