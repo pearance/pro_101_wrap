@@ -10,6 +10,13 @@ function pro_101_wrap_install() {
   $path_original = $faq_path;
   path_save($faq_path);
 
+	$faq_path_order = array(
+  	'source' => "faq-page/order",
+  	'alias' => 'answers/order',
+	);
+	$path_original = $faq_path_order;
+	path_save($faq_path_order);
+
   $testimonial_add_path = array(
     'source' => "node/add/testimonial",
     'alias' => 'add/testimonial',
