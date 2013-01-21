@@ -38,6 +38,7 @@ features[menu_links][] = shortcut-set-1:admin/config/system/google-analytics-rep
 features[menu_links][] = shortcut-set-1:admin/config/system/googleanalytics
 features[menu_links][] = shortcut-set-1:admin/config/system/nagios
 features[menu_links][] = shortcut-set-1:admin/content
+features[menu_links][] = shortcut-set-1:admin/content/blocks
 features[menu_links][] = shortcut-set-1:node/add
 features[shortcut_set][] = shortcut-set-1
 features[user_permission][] = Actions Configuration

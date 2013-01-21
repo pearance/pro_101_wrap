@@ -131,8 +131,8 @@ function pro_101_wrap_strongarm() {
       'Meta tags' => 'Meta Tags',
       'Moderate' => 'Editorial',
       'Moderation notes' => 'Revision log message',
-      'Moderation state' => 'Update Editorial State',
       'Moderation State' => 'Current Editorial State',
+      'Moderation state' => 'Update Editorial State',
       'My account' => 'My Profile',
       'My content' => 'Drafts',
       'My Workbench' => 'Drafts',
@@ -149,9 +149,9 @@ function pro_101_wrap_strongarm() {
       'Set moderation state:' => 'Update Editorial State:',
       'Set the moderation state for this content.' => 'Set the editorial state for this content.',
       'Status' => 'Note',
+      'Unassigned zones' => 'Unassigned',
       'Verifications' => 'Bing',
       'Your draft will be placed in moderation.' => 'When revision of this content is complete, change the editorial state to \'Ready for Optimization\'.',
-      'Unassigned zones' => 'Unassigned',
     ),
   );
   $export['locale_custom_strings_en'] = $strongarm;
