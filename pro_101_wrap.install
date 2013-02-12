@@ -2,7 +2,7 @@
 
 
 function pro_101_wrap_install() {
-  // Create aliases.
+  // Create answers alias.
   $faq_path = array(
     'source' => "faq-page",
     'alias' => 'answers',
@@ -10,6 +10,7 @@ function pro_101_wrap_install() {
   $path_original = $faq_path;
   path_save($faq_path);
 
+	// Create answers_order alias.
 	$faq_path_order = array(
   	'source' => "faq-page/order",
   	'alias' => 'answers/order',
@@ -17,10 +18,19 @@ function pro_101_wrap_install() {
 	$path_original = $faq_path_order;
 	path_save($faq_path_order);
 
+	// Create add/testimonial alias.
   $testimonial_add_path = array(
     'source' => "node/add/testimonial",
     'alias' => 'add/testimonial',
   );
   $path_original = $testimonial_add_path;
   path_save($testimonial_add_path);
+
+	// Create user/login alias.
+	$user_login = array(
+    'source' => "user",
+    'alias' => 'user/login',
+  );
+  $path_original = $user_login;
+  path_save($user_login);
 }
