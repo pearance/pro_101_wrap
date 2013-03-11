@@ -83,6 +83,15 @@ function pro_101_wrap_user_default_permissions() {
     'module' => 'config_perms',
   );
 
+  // Exported permission: Content Types.
+  $permissions['Content Types'] = array(
+    'name' => 'Content Types',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
   // Exported permission: Content-lock Configuration.
   $permissions['Content-lock Configuration'] = array(
     'name' => 'Content-lock Configuration',
@@ -224,6 +233,16 @@ function pro_101_wrap_user_default_permissions() {
     'name' => 'Maintenance Configuration',
     'roles' => array(
       0 => 'developer',
+    ),
+    'module' => 'config_perms',
+  );
+
+  // Exported permission: Manage Display.
+  $permissions['Manage Display'] = array(
+    'name' => 'Manage Display',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'config_perms',
   );
