@@ -12,11 +12,37 @@ include_once 'pro_101_wrap.features.inc';
  *
  */
 function pro_101_wrap_form_alter(&$form, &$form_state, $form_id) {
-  switch($form_id) {
-    case 'user-login':
-      $form['pass']['#attributes']['autocomplete'] = 'off';
-    break;
-  }
+	switch($form_id) {
+		case 'user_login':
+			$form['name']['#attributes']['autocomplete'] = 'off';
+			$form['pass']['#attributes']['autocomplete'] = 'off';
+			$form['name']['#attributes']['placeholder'] = 'Email';
+			$form['pass']['#attributes']['placeholder'] = 'Password';
+		break;
+
+		case 'user_pass':
+			$form['name']['#attributes']['placeholder'] = 'Email';
+		break;
+
+		case 'webform_client_form_3':
+			$form['submitted']['name']['#attributes']['placeholder'] = 'Name';
+			$form['submitted']['email']['#attributes']['placeholder'] = 'Email';
+			$form['submitted']['phone']['#attributes']['placeholder'] = 'Phone';
+			$form['submitted']['subject']['#attributes']['placeholder'] = 'Subject';
+			$form['submitted']['message']['#attributes']['placeholder'] = 'Message';
+		break;
+
+		case 'jasm_feedburner_mail_subscribe_form':
+			$form['email']['#attributes']['placeholder'] = 'Email';
+		break;
+
+		case 'testimonial_node_form':
+			$form['body']['und']['0']['value']['#attributes']['placeholder'] = 'Testimonial';
+			$form['title_field']['und']['0']['value']['#attributes']['placeholder'] = 'Name';
+			$form['field_testimonial_title']['und']['0']['value']['#attributes']['placeholder'] = 'Title (optional)';
+			$form['field_city_state']['und']['0']['value']['#attributes']['placeholder'] = 'City, State';
+		break;
+	}
 }
 
 
@@ -43,9 +69,9 @@ function pro_101_wrap_form_alter(&$form, &$form_state, $form_id) {
  * @see workbench_content()
  */
 function pro_101_wrap_workbench_content_alter(&$output) {
-  // Replace the default "Recent Content" view with our custom View.
-  $output['workbench_recent_content']['#view'] = 'workbench_moderation';
-  $output['workbench_recent_content']['#view_display'] = 'drafts_page';
+	// Replace the default "Recent Content" view with our custom View.
+	$output['workbench_recent_content']['#view'] = 'workbench_moderation';
+	$output['workbench_recent_content']['#view_display'] = 'drafts_page';
 }
 
 /**
